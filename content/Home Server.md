@@ -52,6 +52,8 @@ Due to the fact that one has to pay for electricty, an always on power-hungry de
 | -------------- | --------------- | -------------------- | --------------------------- |
 | Compute Server | ~418 W          | ~0.40 kWh            | ~$0.087/hr                  |
 | Laptop         | ~50 W           | ~0.05 kWh            | ~$0.011/hr                  |
+
+
 *The above table is a prediction on the amount of power consumption we can expect to see from the two computers. For the compute server's GPU, an Average of 350 Watts during gaming to 450 W on max usage is expected, while the CPU uses around 65W [^2]. With all the other components of the computer contributing less to the total power usage.*
 
 
