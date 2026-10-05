@@ -1,0 +1,179 @@
+configuration:
+  pageTitle: Engineering Project Portfolio
+  pageTitleSuffix: ''
+  enableSPA: true
+  enablePopovers: true
+  analytics: null
+  locale: en-US
+  baseUrl: YOURNAME.github.io/YOURREPO
+  ignorePatterns:
+  - private
+  - templates
+  - .obsidian
+  - .portfolio-export*
+  - '**/*.before-portfolio-export'
+  theme:
+    fontOrigin: local
+    cdnCaching: false
+    typography:
+      header: Noto Sans
+      body: Noto Sans
+      code: Source Code Pro
+    colors:
+      lightMode:
+        light: '#FFFFFF'
+        lightgray: '#F0F0F0'
+        gray: '#97979F'
+        darkgray: '#161209'
+        dark: '#161209'
+        secondary: '#6D41FF'
+        tertiary: '#826EA2'
+        highlight: '#6D41FF40'
+        textHighlight: '#6D41FF40'
+      darkMode:
+        light: '#191919'
+        lightgray: '#363636'
+        gray: '#8F8F98'
+        darkgray: '#CBCBCB'
+        dark: '#CBCBCB'
+        secondary: '#826EA2'
+        tertiary: '#6D41FF'
+        highlight: '#826EA266'
+        textHighlight: '#826EA266'
+plugins:
+- source: '@quartz-community/note-properties'
+  enabled: true
+  order: 5
+  options:
+    includeAll: false
+    includedProperties: []
+    hidePropertiesView: true
+    delimiters: '---'
+    language: yaml
+- source: '@quartz-community/created-modified-date'
+  enabled: true
+  order: 10
+  options:
+    defaultDateType: modified
+    priority:
+    - frontmatter
+    - git
+    - filesystem
+- source: '@quartz-community/syntax-highlighting'
+  enabled: true
+  order: 20
+  options:
+    theme:
+      light: github-light
+      dark: github-dark
+    keepBackground: false
+- source: '@quartz-community/obsidian-flavored-markdown'
+  enabled: true
+  order: 30
+  options:
+    enableInHtmlEmbed: false
+    enableCheckbox: true
+- source: '@quartz-community/github-flavored-markdown'
+  enabled: true
+  order: 40
+- source: '@quartz-community/table-of-contents'
+  enabled: true
+  order: 50
+  layout:
+    position: right
+    priority: 30
+    display: desktop-only
+- source: '@quartz-community/crawl-links'
+  enabled: true
+  order: 60
+  options:
+    markdownLinkResolution: absolute
+- source: '@quartz-community/description'
+  enabled: true
+  order: 70
+- source: '@quartz-community/latex'
+  enabled: true
+  order: 80
+  options:
+    renderEngine: katex
+- source: '@quartz-community/remove-draft'
+  enabled: true
+- source: '@quartz-community/content-index'
+  enabled: true
+  options:
+    enableSiteMap: true
+    enableRSS: true
+- source: '@quartz-community/favicon'
+  enabled: true
+- source: '@quartz-community/content-page'
+  enabled: true
+- source: '@quartz-community/folder-page'
+  enabled: true
+- source: '@quartz-community/tag-page'
+  enabled: true
+- source: '@quartz-community/explorer'
+  enabled: true
+  layout:
+    position: left
+    priority: 50
+- source: '@quartz-community/search'
+  enabled: true
+  layout:
+    position: left
+    priority: 20
+    group: toolbar
+    groupOptions:
+      grow: true
+- source: '@quartz-community/backlinks'
+  enabled: true
+  layout:
+    position: right
+    priority: 50
+- source: '@quartz-community/article-title'
+  enabled: true
+  layout:
+    position: beforeBody
+    priority: 10
+- source: '@quartz-community/page-title'
+  enabled: true
+  layout:
+    position: left
+    priority: 10
+- source: '@quartz-community/darkmode'
+  enabled: true
+  layout:
+    position: left
+    priority: 30
+    group: toolbar
+- source: '@quartz-community/spacer'
+  enabled: true
+  layout:
+    position: left
+    priority: 25
+    display: mobile-only
+- source: '@quartz-community/footer'
+  enabled: true
+  options:
+    links: {}
+  layout:
+    position: footer
+    priority: 50
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    '404':
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      positions:
+        right: []
+    tag:
+      positions:
+        right: []

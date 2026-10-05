@@ -1,0 +1,89 @@
+/* Adapted from your blog-theme.css, PDF palette and Dataview metadata styles.
+   Obsidian/MkDocs selectors do not target Quartz's DOM. */
+:root {
+  color-scheme: dark;
+  --light: #191919;
+  --lightgray: #363636;
+  --gray: #8F8F98;
+  --darkgray: #CBCBCB;
+  --dark: #CBCBCB;
+  --secondary: #826EA2;
+  --tertiary: #6D41FF;
+  --highlight: #826EA266;
+  --textHighlight: #826EA266;
+  --portfolio-code: #1E2228;
+  --portfolio-code-text: #E5BF78;
+  --portfolio-table: #272C34;
+  --portfolio-table-head: #20252B;
+  --portfolio-pill: #252627;
+  --portfolio-pill-border: #4A4A4A;
+  --bodyFont: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --headerFont: var(--bodyFont);
+  --codeFont: "Source Code Pro", Menlo, Consolas, Monaco, monospace;
+}
+
+:root[saved-theme="light"] {
+  color-scheme: light;
+  --light: #FFFFFF;
+  --lightgray: #F0F0F0;
+  --gray: #97979F;
+  --darkgray: #161209;
+  --dark: #161209;
+  --secondary: #6D41FF;
+  --tertiary: #826EA2;
+  --highlight: #6D41FF40;
+  --textHighlight: #6D41FF40;
+  --portfolio-code: #F5F5F5;
+  --portfolio-code-text: #E74C3C;
+  --portfolio-table: #FFFFFF;
+  --portfolio-table-head: #EDEDED;
+  --portfolio-pill: #F8F8F8;
+  --portfolio-pill-border: #DADADA;
+}
+
+:root[saved-theme="dark"] {
+  color-scheme: dark;
+}
+
+body { font-family: var(--bodyFont); }
+.center > article { font-size: 16px; line-height: 1.5rem; }
+.article-title { font-family: var(--bodyFont); font-size: 2rem; line-height: 1.15; color: var(--dark); }
+article h1 { font-size: 2rem; }
+article h2 { font-size: 1.6rem; line-height: 1.2; margin-top: 2rem; }
+article h2::before { content: "# "; color: var(--secondary); }
+article h3 { font-size: 1.3rem; }
+article p { margin: 1em 0; }
+article :is(h1, h2, h3, h4, h5, h6) { color: var(--dark); }
+article a { color: var(--secondary); }
+article a:hover { color: var(--tertiary); }
+article blockquote {
+  margin: 1em 0;
+  padding: 0.25em 1em;
+  color: var(--gray);
+  background: transparent;
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0;
+  box-shadow: none;
+}
+article code:not(pre code) {
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  background: var(--portfolio-code);
+  color: var(--portfolio-code-text);
+}
+article pre { padding: 16px; background: var(--portfolio-code); border: 1px solid var(--lightgray); border-radius: 6px; }
+article table { width: 100%; margin: 1.25em auto; border-collapse: collapse; background: var(--portfolio-table); }
+article th { background: var(--portfolio-table-head); }
+article :is(th, td) { padding: 8px 12px; border: 1px solid var(--lightgray); }
+article hr { border: 0; border-top: 1px solid var(--lightgray); }
+article img { max-width: 100%; height: auto; border-radius: 3px; }
+/* Preserve Obsidian's |300 and |500 sizing attributes. */
+article img[width] { max-width: 100%; }
+.project-meta { display: flex; flex-direction: column; gap: 14px; margin: 18px 0 28px; }
+.project-meta-row { display: flex; flex-direction: column; gap: 4px; }
+.project-meta-label { color: var(--gray); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.project-meta-value { color: var(--darkgray); font-size: 17px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.project-tag { padding: 4px 10px; border: 1px solid var(--portfolio-pill-border); border-radius: 999px; background: var(--portfolio-pill); color: var(--darkgray); font-size: 14px; }
+::selection { background: var(--textHighlight); }
+@media (max-width: 960px) { .center > article { width: 100%; } }
