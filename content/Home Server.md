@@ -30,20 +30,21 @@ This dual computer design allows for always-on, relatively lower power consumpti
 
 ### Specs
 
-Laptop (always on)
-**CPU:** Ryzen 7 5800H
-**GPU:** RTX 3050 Laptop GPU
-**RAM:** 8 GB
+**Laptop (Always On)**
 
-Desktop (compute server)
-**CPU:** AMD Ryzen 7 5800X, 8 cores / 16 threads
-**GPU:** EVGA GeForce RTX 3090 FTW3 Ultra, 24 GB GDDR6X
-**RAM:** 32 GB DDR4
-**Motherboard:** MSI B550-A PRO
-**PSU:** MSI MAG A850GL PCIE5, 850 W (80+ Gold, ATX 3.x / PCIe 5.x)
-**OS:** Fedora Linux, headless/server-oriented
-**Storage:** several expandable SSDs/drives
+- **CPU:** Ryzen 7 5800H
+- **GPU:** RTX 3050 Laptop GPU
+- **RAM:** 8 GB
 
+**Desktop (Compute Server)**
+
+- **CPU:** AMD Ryzen 7 5800X, 8 cores / 16 threads
+- **GPU:** EVGA GeForce RTX 3090 FTW3 Ultra, 24 GB GDDR6X
+- **RAM:** 32 GB DDR4
+- **Motherboard:** MSI B550-A PRO
+- **PSU:** MSI MAG A850GL PCIE5, 850 W (80+ Gold, ATX 3.x / PCIe 5.x)
+- **OS:** Fedora Linux, headless/server-oriented
+- **Storage:** Several expandable SSDs/drives
 ### Design Considerations
 
 Due to the fact that one has to pay for electricity, an always-on, power-hungry desktop is not such an attractive option. Below is a table with the average predicted power consumption for the two computers.
