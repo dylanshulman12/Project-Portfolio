@@ -26,7 +26,7 @@ portfolio-order: 3.0
 
 ## Overview
 
-> Since I was a kid I had always admired the SciFI genre due to the seemingly simplistic but behind-the-scenes incredibly powerful computer systems and other fantastical technology. Now that I am older and have chosen to become an engineer I have started a few projects to bring me closer to a future that shares this vision. Named after one of the AIs featured in one of the best space VR games of the last few years, Lone Echo, the Apollo System or program is one of the few projects that must integrate an ecosystem across all of my techology. This includes local AI compute, secure networking and domain facing services, file sync services, large RAG memory databases and control of smart home and other personal devices. 
+> Since I was a kid, I have always admired the sci-fi genre due to the seemingly simplistic but incredibly powerful computer systems that characters interact with. Now that I am older and have chosen to become an engineer, I have started a few projects to bring me closer to a future that shares this vision. Named after one of the AIs featured in Lone Echo, one of the best space VR games of the last few years, the Apollo System or program is one of the few projects that must integrate an ecosystem across all of my techology. This includes local AI compute, secure networking and domain-facing services, file sync services, large RAG memory databases and control of smart home and other personal devices. 
 
 [view Github:](https://github.com/dylanshulman12/apollo_AI_Assistant)
 
@@ -57,4 +57,4 @@ AI: ANSWER
 ```
 
 
-*Note: Code is currently being edited and is a long term project that depends on several other pieces of an ecosystem to be built before it becomes useful such as a personal drive, a functioning compute server. Therefore, the example runtime is an emulation of loading a model into vram as currently strong ai reasoning models are limited to higher end hardware currently in the compute server, see other [project](#home-server-build)*
+*Note: Code is currently being edited and is a long-term project that depends on several other pieces of an ecosystem to be built before it becomes useful, such as a personal drive, a functioning compute server. Therefore, the example runtime is an emulation of loading a model into VRAM as currently strong AI reasoning models are limited to higher end hardware currently in the compute server, see other [project](#home-server-build)*

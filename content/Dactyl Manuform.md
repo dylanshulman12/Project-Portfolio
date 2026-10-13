@@ -23,13 +23,13 @@ portfolio-order: 2.0
 
 
 
-> All of these years of being a software developer have led to some wrist damage. With wrist damage in mind, and my future careeer being in building physical things, I have decided to do some electronics projects. The Dactyl Manuform is a popular split, ergonomic keyboard developed by the open source community.  
+> All of these years of being a software developer have led to some wrist damage. With wrist damage in mind, and my careeer being in building physical things, I have decided to do some electronics projects. The Dactyl Manuform is a popular split, ergonomic keyboard developed by the open-source community.  
 
 ## Overview
 
-The idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience. 
+he idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience.  
 
-I decided to use this as the starting point for my electronics journey as building a keyboard is a relatively easy beginner electronics project. However, while it may be "easy", it is super useful. So useful, that, once built, it will be replacing my current keyboard. 
+I decided to use this as the starting point for my electronics journey, as building a keyboard is a relatively easy beginner electronics project. However, while it may be “easy,” it is super useful. So useful that, once built, it will be replacing my current keyboard.
 
 ![[media/dactylexample.jpg]]
 ## Design
@@ -66,11 +66,11 @@ After I recieved them I realized I needed to change to surface mount diodes, whi
 
 ### 3x3 Matrix
 
-Because I am so new to electronics I decided to first try wiring a 3x3 matrix together and see if I could get each switch to work. However, I am currently stuck and with school time constraints I got each switch to work individually but when wired together only about 3 of the switches work and will produce a key input on the keyboard. Therefore this project has been suspended until I decide to come back and work on it. 
+Because I am so new to electronics, I decided to first try wiring a 3x3 matrix together and see if I could get each switch to work. However, I am currently stuck. I got each switch to work individually, but when wired together, only about 3 of the switches work and produce a key input on the keyboard. Therefore, with school time constraints, this project has been suspended until I decide to come back and work on it.
 
 ### Next steps
 
-I plan to desolder and use longer wiring to make testing easy and not have a tangled mess when I retest everyting. Once I get a 3x3 working, that will confirm that I understand the matrix wiring concept and can move onto placing each pcb into the normal full Dactyl Mauform matrix. 
+I plan to desolder the components and use longer wiring to make testing easy and mitigate the tangled mess when I retest everything. Once I get a 3x3 working, that will confirm that I understand the matrix wiring concept and can move on to placing each PCB into the normal full Dactyl Manuform matrix.
 
 
 

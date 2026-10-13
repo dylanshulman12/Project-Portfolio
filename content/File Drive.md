@@ -22,12 +22,12 @@ portfolio-order: 1.0
 
 ## Overview
 
-> As a big fan of open source projects, I have tried many different file drives and services. But while they are feature rich, simply downloading and using a pre-made File hosting service and running it on my own hardware never gave me the feeling of discovery and control that I get by studying and building the service from scratch. So that is what I did with this project. 
+> As a big fan of open-source projects, I have tried many different file drives and services. But while they are feature-rich, simply downloading and using a pre-made file hosting service and running it on my own hardware never gave me the feeling of discovery and control that I get by studying and building the service from scratch. So that is what I did with this project.  
 
 [View source on Github](https://github.com/dylanshulman12/FileDrive)
 ## Design and Capabilities
 
-Currently this project is capable of uploading/downloading files, and resumable chunked file uploads, and a db so a user can traverse through folders, async independent file uploads, pre-hashing files for integrity verification
+Currently, this project is capable of uploading/downloading files, resumable chunked file uploads, async independent file uploads, and pre-hashing files for integrity verification, and it has a DB so a user can traverse through folders.
 ![[media/image-6.png| 550]]*A screenshot from the current iteration of the file drive*
 
 ## Not Yet Implemented
