@@ -27,7 +27,7 @@ portfolio-order: 2.0
 
 ## Overview
 
-he idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience.  
+the idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience.  
 
 I decided to use this as the starting point for my electronics journey, as building a keyboard is a relatively easy beginner electronics project. However, while it may be “easy,” it is super useful. So useful that, once built, it will be replacing my current keyboard.
 
