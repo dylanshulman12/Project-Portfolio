@@ -23,11 +23,12 @@ portfolio-order: 2.0
 
 
 
-> All of these years of being a software developer have led to some wrist damage. With wrist damage in mind, and my careeer being in building physical things, I have decided to do some electronics projects. The Dactyl Manuform is a popular split, ergonomic keyboard developed by the open-source community.  
+> All of these years of being a software developer have led to some wrist damage. With wrist damage in mind, and my career being in building physical things, I have decided to do some electronics projects. The Dactyl Manuform is a popular split, ergonomic keyboard developed by the open-source community.  
 
 ## Overview
 
-the idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience.  
+t
+he idea of the Dactyl Manuform is to build a split keyboard that forms to the hand. This reduces wrist soreness and the risk of getting carpal tunnel, hopefully providing a better and more comfortable typing experience.  
 
 I decided to use this as the starting point for my electronics journey, as building a keyboard is a relatively easy beginner electronics project. However, while it may be “easy,” it is super useful. So useful that, once built, it will be replacing my current keyboard.
 
